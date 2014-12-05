@@ -15,9 +15,23 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <section class="white">
+        <section id="top">
         	<div class="wrapper content_wrapper">
                 <article>
+                    <ul>
+                        <li>
+                            <a href="#top">
+                                Using Git &amp; GitHub
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#training_plan">
+                                Sublime Text 2 Training Plan
+                            </a>
+                        </li>
+                    </ul>
+
                     <h1>
                         Using Git &amp; GitHub
                     </h1>
@@ -60,19 +74,7 @@
 
                         <li>
                             <a href="#making_pull_requests">
-                                Making Pull Requests
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#code_review_and_discussion">
-                                Code Review &amp; Discussion
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#merging_branches">
-                                Merging Branches
+                                Pull Requests &amp; Merging Branches
                             </a>
                         </li>
 
@@ -86,7 +88,7 @@
             </div>
         </section>
 
-        <section class="white" id="creating_repo">
+        <section id="creating_repo">
             <div class="wrapper content_wrapper">
                 <article>
                     <h1>
@@ -108,7 +110,7 @@
             </div>
         </section>
 
-        <section class="white" id="creating_branches">
+        <section id="creating_branches">
             <div class="wrapper content_wrapper">
                 <article>
                     <h1>
@@ -130,7 +132,7 @@
             </div>
         </section>
 
-        <section class="white" id="making_commits">
+        <section id="making_commits">
         	<div class="wrapper content_wrapper">
                 <article>
                     <h1>
@@ -160,73 +162,47 @@
             </div>
         </section>
 
-        <section class="white" id="making_pull_requests">
+        <section id="making_pull_requests">
         	<div class="wrapper content_wrapper">
                 <article>
                     <h1>
-                        Making Pull Requests
+                        Pull Requests &amp; Merging Branches
                     </h1>
 
                     <p>
-                        body text
+                        Now that you've made changes to your project and committed them, you're going to want to apply these changes. There are two common ways of doing this. The first to merge the branch you've created back into the master branch. This is usually useful when making changes to a repository hosted locally. Merging the branch into the master branch will bring control flow back and the repository's working head back to master. After doing so, you will no longer make commits to the branch you've created, but to the master branch instead.
                     </p>
                 </article>
 
                 <figure>
-                    <img src="images/create_pull_request_1.png" alt="Creating Pull Requests Image 1">
+                    <img src="images/merging_branches.png" alt="Merging branches.">
                     
                     <figcaption>
-                        Making a commit using GitHub for Mac
+                        Merging branches using GitHub for Mac
                     </figcaption>
                 </figure>
-            </div>
-        </section>
 
-        <section class="white" id="code_review_and_discussion">
-            <div class="wrapper content_wrapper">
                 <article>
-                    <h1>
-                        Code Review &amp; Discussion
-                    </h1>
+                    <p>
+                        The other common workflow for applying changes is to make a pull request to the repository. This is common when working on a remotely hosted project with multiple collaborators, or an open source project of some kind. In this case, you'll navigate the the repository's branches section on GitHub and select the branch you've been working on. From there, you'll be given the option to merge the pull request back into the repository's master branch.
+                    </p>
 
                     <p>
-                        body text
+                        This is very similar to the way you merge branches yourself but with one major difference. Instead of just being able to merge the branches, you have to request that it be done by the project's owners.
                     </p>
                 </article>
 
                 <figure>
-                    <img src="images/making_commits.png" alt="Making Commits">
+                    <img src="images/create_pull_request_2.png" alt="Create a pull request">
                     
                     <figcaption>
-                        Making a commit using GitHub for Mac
+                        Making a pull request at https://github.com/username/reponame/branches
                     </figcaption>
                 </figure>
             </div>
         </section>
 
-        <section class="white" id="merging_branches">
-            <div class="wrapper content_wrapper">
-                <article>
-                    <h1>
-                        Merging Branches
-                    </h1>
-
-                    <p>
-                        body text
-                    </p>
-                </article>
-
-                <figure>
-                    <img src="images/making_commits.png" alt="Making Commits">
-                    
-                    <figcaption>
-                        Making a commit using GitHub for Mac
-                    </figcaption>
-                </figure>
-            </div>
-        </section>
-
-        <section class="white" id="creating_releases">
+        <section id="creating_releases">
             <div class="wrapper content_wrapper">
                 <article>
                     <h1>
@@ -234,17 +210,191 @@
                     </h1>
 
                     <p>
-                        body text
+                        Once you've made all your changes and your event tree is looking good, you may want to publish a specific events in the history of the project. (v1.0, v2.0, etc.) To do this, you create a release. Creating releases are easy. All you have to do is navigate to the releases section for your repository on GitHub and click the "Create New Release" button. From there, you'll see a menu that allows you to create a release of a specified version number and title. Users will be able to download your project as it was at this point by downloading this release.
                     </p>
                 </article>
 
                 <figure>
-                    <img src="images/making_commits.png" alt="Making Commits">
+                    <img src="images/release.png" alt="Creating Releases">
                     
                     <figcaption>
-                        Making a commit using GitHub for Mac
+                        Making a release at https://github.com/username/reponame/releases
                     </figcaption>
                 </figure>
+            </div>
+        </section>
+
+        <section id="training_plan">
+            <div class="wrapper content_wrapper">
+                <article>
+                    <h1>
+                        Sublime Text 2 Training Plan
+                    </h1>
+
+                    <h3>
+                        Effectively Using Sublime Text 2
+                    </h3>
+
+                    <p>
+                        Sublime Text 2 is an extremely flexible and powerful text editor that can be used for programming in any language.
+                    </p>
+
+                    <p>
+                        Following this guide should give you a basic understanding of some of the features of Sublime Text 2 and help you to learn how to start using it proficiently. In this training exercise I’ll be explaining how to use some of the features of Sublime Text 2 that I find most useful when using it myself. This will include features like, the side navigator, multiple selections, the command palette, templates and the find an replace menus.
+                    </p>
+                    
+                    <p>
+                        This guide will assume that you already have downloaded and installed Sublime Text 2 from http://www.sublimetext.com and are comfortable with basic programming concepts. Other than that no tools will be required for this guide.
+                    </p>
+                    
+                    <p>
+                        This guide will use the learn by doing training technique coupled with brief verbal descriptions of each topic when the topic requires a deeper understand than can be quickly gained from viewing the program. Guidance will be applied as necessary if the student has any additional questions or concerns about Sublime Text 2. In other situations, the student will watch me show them how to use a particular feature.
+                    </p>
+                    
+                    <h3>
+                        Curriculum
+                    </h3>
+
+                    <ul>
+                        <li>
+                            The Side Navigator
+                            <ul>
+                                <li>
+                                    2 Minutes
+                                </li>
+
+                                <li>
+                                    Show/ explain the feature without user interaction.
+                                </li>
+
+                                <li>
+                                    Demonstrate how the side bar can be a useful tool for quickly jumping around between large sections of code by seeing the entire page in a zoomed out scrolling view.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            Multiple Selection
+                            <ul>
+                                <li>
+                                    3 Minutes
+                                </li>
+
+                                <li>
+                                    Start by explaining the feature and showing it to the student. From there, allow student to try using the feature themselves so that they can see how powerful of a tool it is.
+                                </li>
+
+                                <li>
+                                    Demonstrate the usage of multiple selection in Sublime Text 2. Show different ways to add multiple cursors to the screen and how this can increase productivity.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            The Command Palette
+                            <ul>
+                                <li>
+                                    4 Minutes
+                                </li>
+
+                                <li>
+                                    Start by explaining what the command palette is and show a few examples of what it can do to increase productivity. Then let the student try to install a few packages to show them how easy it is to interact with.
+                                </li>
+
+                                <li>
+                                    The Command Palette allows for the use of any command in Sublime Text 2 to be executed without remembering the keyboard shortcut for it. After activated, the command palette allows the user to fuzzy search the names of allow available commands. It also includes and extensive package manager to allow the installation of plugins for Sublime Text 2.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            Templates
+                            <ul>
+                                <li>
+                                    3 Minutes
+                                </li>
+
+                                <li>
+                                    Explain and demonstrate what templates are and show how they can save you a lot of time while writing programs.
+                                </li>
+
+                                <li>
+                                    After demonstration is over, let the student try using templates for themselves using preexisting templates or let them define their own.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            Find and Replace Menus
+                            <ul>
+                                <li>
+                                    3 Minutes
+                                </li>
+
+                                <li>
+                                    Show the different features of Sublime Text 2’s find and replace menus and how these can differ from other editors.
+                                </li>
+
+                                <li>
+                                    Sublime Text 2 offers advanced find and replace menus that allow for more than just simple find and replace. You can match searches against current project status, as well as past commits (if version control is enabled). You can also find/replace matches using inline Regex.
+                                </li>
+                            </ul>
+                        </li>                        
+                    </ul>
+                        
+                        
+                        
+                    <h3>
+                        Contingency Plan
+                    </h3>
+
+                    <ul>
+                        <li>
+                            Problem - Unable to download or install Sublime Text 2 on student’s computer
+                            <ul>
+                                <li>
+                                    Solution - Make demonstration on my own computer.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            Problem - Side menu is not enabled by default.
+                            <ul>
+                                <li>
+                                    Solution - Navigate to application’s settings.json file and modify side bar state.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            Problem - Package manager can’t be used due to lack of Internet connectivity.
+                            <ul>
+                                <li>
+                                    Solution - Only demonstrate offline features of the command palette and describe what can be done with the package manager.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            Problem - Corrupt template files generated during exercise.
+                            <ul>
+                                <li>
+                                    Solution - Sublime Text 2 template rebuild, or if necessary manually make corrections myself.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            Problem - Lack of ability to remember useful Regular Expressions.
+                            <ul>
+                                <li>
+                                    Solution - Look up examples online and apply them to the find/replace section.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </article>
             </div>
         </section>
     </body>
